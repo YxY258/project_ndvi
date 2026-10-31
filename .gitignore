@@ -1,2 +1,7 @@
 __pycache__/
 *.pyc
+
+# 真实影像中间产物：体积大（单个 5~14 MB），且可由 step3/step4 重新生成，不进版本库
+data/B04.tif
+data/B08.tif
+data/ndvi_real.tif
