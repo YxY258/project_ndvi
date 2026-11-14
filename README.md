@@ -74,6 +74,7 @@ project_ndvi/
 
 ```bash
 conda activate forestry
+pip install -r requirements.txt   # 首次运行前安装依赖
 python step1_raster_basics.py   # 栅格读写基础
 python step2_ndvi.py            # 模拟数据 NDVI（阶段 1）
 python step3_search_image.py    # STAC 检索 + 窗口裁剪下载（需联网，阶段 2 第 1 步）
